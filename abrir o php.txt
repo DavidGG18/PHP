@@ -1,0 +1,7 @@
+Para abrir o php
+
+Tem que colocar os arquivos html, php e etc, na pasta www no wamp
+
+Para abrir algo em php tem que colocar o link 
+
+http://localhost/nome_do_arquivo.html

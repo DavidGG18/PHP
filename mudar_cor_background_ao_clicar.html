@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Página mudança de cor </title>
+
+<!-- mudar cor background, ao clicar na opção  -->
+
+
+
+
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transition: background-color 0.3s ease;
+  }
+  
+  .color-option {
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+  <div class="color-option" style="color: red;" onclick="changeColor('red')">Vermelho<p></div>
+    <p>
+  <div class="color-option" style="color: green;" onclick="changeColor('green')"> Verde  <p> </div>
+  <p>
+  <div class="color-option" style="color: blue;" onclick="changeColor('blue')"> Azul  <p></p> </div>
+  <p>
+  <div class="color-option" style="color: yellow;" onclick="changeColor('yellow')"> Amarelo  <p></p> </div>
+
+  <script>
+    function changeColor(color) {
+      document.body.style.backgroundColor = color;
+    }
+    
+  </script>
+</body>
+</html>
